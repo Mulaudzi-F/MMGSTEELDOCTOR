@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <title>MMG steel Doctor</title>
 </head>
@@ -97,7 +98,7 @@
                 <button>Click for me</button>
             </div>
         </section>
-        <section>
+        <section class="About_section">
             <h2>About</h2>
             <div>
                 <div>
@@ -119,11 +120,47 @@
         </section> 
         <section>
             <h2>Why Choose Us</h2>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="why_us">
+                <div>
+                    <img src="./4265038_badge_guarantee_quality_ribbon_warranty_icon.svg" alt="quality" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div>
+                    <img src="./2639804_delivery_icon.svg" alt="delivery" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div>
+                    <img src="./3671802_location_icon.svg" alt="location">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div>
+                    <img src="/7727544_customer_satisfaction_stars_hand_business_icon.svg" alt="Icon description">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
             </div>
         </section>
         <section>
@@ -137,16 +174,28 @@
                         <fieldset>
                             <legend>Address(Optional) </legend>
                             <div>
-                                <input type="text" name="province" placeholder="e.g Gauteng"> 
-                                <input type="text" name="City" placeholder="e.g City">
+                                <label for="province">Province
+                                    <input type="text" name="province" id="province" placeholder="e.g Gauteng"> 
+                                </label>
+                                
+                                <label for="city">City
+                                    <input type="text" name="City" id="City" placeholder="e.g City">
+                                </label>
+                                
                             </div>
                             <div>
-                                <input type="text" name="surbub" placeholder="e.g surbub" >
-                                <input type="text" name="street" placeholder=" e.g Makuya Street">
+                                <label for="surbub">Surburb
+                                    <input type="text" id="surbub" name="surbub" placeholder="e.g surbub" >
+                                </label>
+                               
+                                <label for="street">Street
+                                    <input type="text" name="street" placeholder=" e.g Makuya Street">
+                                </label>
+                               
                             </div>
                         </fieldset> 
 
-                        <textarea>Please Leave Us a Message </textarea>
+                        <textarea>Please Leave Us a Message </textarea><br>
                         <button type="submit">Submit</button>
                     </form>
                 </div>
