@@ -1,18 +1,22 @@
 *{
     margin: 0;
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 
 }
 header{
     font-size: 1rem;
     max-width: 100%;
     height: 100vh ;
-    color: #f7cb15;
+    color: #bfc0c0;
+    text-shadow: 2px 2px 4px #000000;
     background-size: cover;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./backImages/WhatsApp\ Image\ 2023-09-21\ at\ 11.40.24\ \(1\).jpeg') no-repeat ;
    
 } 
-
+header div{
+    margin: 9vh 0 0 3vw;
+}
 header li{
     display: inline-block;
     padding: 12px;
@@ -29,6 +33,9 @@ body{
 h2{
     text-align: center;
     margin-top: 12px;
+    text-decoration: underline #3a6ea5 5px;
+    position: relative;
+    top: 8vh;
 } 
 h3{
     text-align: center;
@@ -42,9 +49,9 @@ h3{
 } 
 .service--container img, .About_section img{
     width: 100%;
-    height: 50%;
+    height: 75%;
     object-fit: cover;
-    margin-top: 2%;
+    
 } 
 .boiler--container, .Pipe--container, .Gysers--container, .about--container{
     display: flex;
@@ -60,13 +67,18 @@ h3{
 }
 .Boilers, .Pipeline, .Gysers{
     margin: 10px ;
-    border: 2px solid #f1f1f1;
+    border: 1px solid #f1f1f1;
     border-radius: 10px;
-    background-color: rgb(41, 65, 66);
+    background-color: #5c6b73; 
+    box-shadow: 0 4px 8px 0 rgba(141, 134, 134, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 } 
 .Contact{
     display:flex;
     flex-direction: row;
+    margin-top: 10vh;
+    box-shadow: 0 4px 8px 0 rgba(255, 242, 242, 0.801), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
 }
 form{
    margin: 2% 0 0 19%;
@@ -74,33 +86,39 @@ form{
 } 
 input{
     width: 25%;
-    height: 5vh;
+    height: 6vh;
     margin-top: 2%;
+    background-color: #dee2e6;
 } 
+input[type="email"]{
+    width: 25vw;
+    margin:6px 0 10px 12px;
+}
 textarea{
     width: 55%;
     height: 50vh;
-    margin-top: 12px;
+    margin-top: 12px; 
+    background-color: #dee2e6;
 }
 fieldset{
     width: 50vw;
     height: 30%;
-    margin-top: 16vh 0;
+    margin-top:260px 0;
 }
 fieldset input{
     width: 26%;
-    height: 3vh;
-    margin-top: 3%;
+    height: 6vh;
+    margin-top: 6%;
     padding: 1%;
 } 
 .conctact--details{
-    
+    margin-top: 18vh;
     width: 35vw;
     height: 100%;
 }
 .form--container{
     width: 100%;
-    height: 116vh;
+    height: 126vh;
    margin: 5vh 0; 
    
     
@@ -113,9 +131,7 @@ form button{
 label{
     margin-left: 4vw;
 }
-i {
-    height: 10%;
-}
+
 .why_us img{
     width: 30%;
     height: 30%;
@@ -130,29 +146,50 @@ i {
     align-content: space-between;
 }
 .why_us div{
-    margin-left: 8vw;
-}  
+    margin:5vh 0 0 8vw;
+} 
+.why_us img{
+    box-shadow: 0 4px 8px 0 rgba(255, 242, 242, 0.801), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color: aliceblue;
+    width: 3vw;
+} 
 
 .About_section{
     margin-top: 16vh;
 } 
 
 .conctact--details img{
-    width: 5vw;
-    height: 5vh;
-    margin: 7vh 5px 0 0 ;
+    width: 10%;
+    height: 10%;
+    margin: 0vh 5px 0 0 ;
+    position: relative;
+   
+    left: 15px;
 } 
 .line{
-    height: 31vh;
+    height: 14vh;
     width: 4px;
     background-color: black;
-    margin-left: 2vw;
+    margin-left: 33px;
 }
 .about--container div:nth-child(1){
 width: 100%;
 height: 50%;
+
 } 
 
 .about--container div:nth-child(2){
-    margin-top: 4vh;
+    margin: 4vh 2vw;
+}
+
+.conctact--details span{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+img:hover{
+    border: 1px solid #777
+} 
+button{
+    background-color: #00b4d8;
 }
