@@ -188,6 +188,9 @@ height: 50%;
 
 .about--container div:nth-child(2){
     margin: 4vh 2vw;
+} 
+.p-hide{
+    display: none;
 }
 
 .conctact--details span{
@@ -306,5 +309,10 @@ button{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./backImages/WhatsApp\ Image\ 2023-09-21\ at\ 11.40.24\ \(1\).jpeg') no-repeat ;
     background-size: cover;
     max-width: 100%;
-} 
+}  
+
+
+.about--container div:nth-child(2) {
+    margin: 0;
+}
 }
