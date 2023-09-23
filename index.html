@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <script src="script.js" defer></script>
-    <title>MMG Steel Doctors</title>
+    <script type="module" src="script.js" defer></script>
+    <title>MMG Steel Doctor</title>
 </head>
 <body>
     <header id="home">
         <nav>
             <ul>
-                <li>MMG-Steel-Doctors</li>
+                <li>MMG-Steel-Doctor</li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#service">Services</a></li>
                 <li><a href="#About">About</a></li>
@@ -24,7 +24,7 @@
             <h1> <span> Welcome</span> <br>
             <span>to</span> <br>
              <span>
-                 MMG-STEEL-DOCTORS, Your Pipeline and Heating Experts!
+                 MMG-STEEL-DOCTOR, Your Pipeline and Heating Experts!
             </span>
             </h1>
         </div>
@@ -43,7 +43,7 @@
                 </div>
                 <div>
                     <p>
-                        At MMGsteelDoctors, we are more than just a 
+                        At MMGsteelDoctor, we are more than just a 
                          heating service provider. We are your partners in ensuring the comfort, safety, and efficiency of your home or business. With a legacy of excellence and a commitment to superior service,
                          here's what sets us apart
                          <p>
@@ -78,7 +78,7 @@
             <div class="service--container">
                 <h3>Reparing Boiler</h3>
                 <div class="boiler--container">
-                    
+                   
                        <div class="Boilers">
                          <img src="./Boilers/boiler--1.jpeg">
                          <p>MMG-steel-Doctors at Boiler Services</p>
@@ -97,7 +97,7 @@
                         </div>
                  
                 </div>
-                <button>View more</button>
+                <button class="boiler--more">View more</button>
                 <h3>Pipe work</h3>
                 <div class="Pipe--container">
                     
@@ -120,7 +120,7 @@
                     
                 
                 </div>
-                <button>View more</button>
+                <button >View more</button>
                 <h3>Reparing Gysers</h3>
                 <div  class="Gysers--container">
                     
@@ -228,10 +228,15 @@
 
                         <textarea>Please Leave Us a Message </textarea><br>
                         <button type="submit">Submit</button>
+                       
                     </form>
                 </div>
             </div>
         </section>
     </main>
+    <dialog class="overlay">
+                            
+    </dialog>
+    <div class="backdrop"></div>
 </body>
 </html>

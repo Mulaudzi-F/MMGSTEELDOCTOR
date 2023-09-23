@@ -78,6 +78,9 @@ h3{
     box-shadow: 0 4px 8px 0 rgba(141, 134, 134, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 } 
+
+
+
 .Contact{
     display:flex;
     flex-direction: row;
@@ -315,4 +318,45 @@ button{
 .about--container div:nth-child(2) {
     margin: 0;
 }
-}
+} 
+
+.backdrop {
+    display: none;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .overlay[open] ~ .backdrop {
+    display: block;
+  } 
+  dialog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(9, 12, 33, 0.3);
+  } 
+  dialog img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    margin-top: 12px;
+  } 
+  
+  dialog div{
+    height: 69%;
+  } 
+  .close--preview {
+    height: 10%;
+    width: 90%;
+    position: relative;
+    top: 66%;
+    left: 20vw;
+    font-size: x-large;
+    color: aliceblue;
+  }  
+
+  
