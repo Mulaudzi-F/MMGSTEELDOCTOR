@@ -1,14 +1,21 @@
-import { boilers } from "./data.js";
+import { boilers, pipes, gysers } from "./data.js";
 
 const aboutBtn = document.querySelector('button') ;
 const hideParagraph = document.querySelector('.p-hide');
 const dialog = document.querySelector('dialog')
+const allItems = document.querySelector('.all-items')
+
 const serviceSection = document.querySelector('.boiler--container')
 const form = document.querySelector('form');
-const main = document.querySelector('main')
+const main = document.querySelector('main') 
+
+// 
 const boilerMore = document.querySelector('.boiler--more')
-console.log(serviceSection)
-console.log(aboutBtn)
+const pipeMore = document.querySelector('.pipe-more')
+const gyserMore = document.querySelector('.gyser-more')
+
+const closePreview = document.querySelector('.close--preview');
+
 aboutBtn.addEventListener('click', function(){
     hideParagraph.classList.remove('p-hide')
     aboutBtn.classList.add('p-hide')
@@ -23,7 +30,7 @@ function createPreview({image, description}) {
     let element = document.createElement('div')
     element.classList = 'Boilers';
     element.innerHTML = /* html */ `
-     <img src="./Boilers/${image}.jpeg"/>
+     <img src="${image}.jpeg"/>
      <p>${description}</p>    
     `
 
@@ -33,9 +40,7 @@ function createPreview({image, description}) {
 //------fragment for boilers service---//
 boilerMore.addEventListener('click', () =>{
 const boilerFragment = document.createDocumentFragment();
-const closebtn = document.createElement('button')
-closebtn.textContent = "Close preview"
-closebtn.className ="close--preview"
+
 
 for (const {image, description} of boilers) {
     const preview  = createPreview({image, description}) 
@@ -43,10 +48,55 @@ for (const {image, description} of boilers) {
     boilerFragment.appendChild(preview)
 } 
 
-dialog.appendChild(boilerFragment) 
-dialog.appendChild(closebtn)
+allItems.appendChild(boilerFragment) 
+
 dialog.show()
 main.classList.add('p-hide') 
 
 
-})
+}) 
+
+//------fragment for Pipes service---//
+pipeMore.addEventListener('click', () =>{
+    const pipeFragment = document.createDocumentFragment();
+   
+    
+    for (const {image, description} of pipes) {
+        const preview  = createPreview({image, description}) 
+    
+        pipeFragment.appendChild(preview)
+    } 
+    
+    allItems.appendChild(pipeFragment) 
+    
+    dialog.show()
+    main.classList.add('p-hide') 
+    
+    
+    }) 
+
+    //------fragment for Gysers service---//
+gyserMore.addEventListener('click', () =>{
+    const gyserFragment = document.createDocumentFragment();
+   
+    for (const {image, description} of gysers) {
+        const preview  = createPreview({image, description}) 
+    
+        gyserFragment.appendChild(preview)
+    } 
+    
+    allItems.appendChild(gyserFragment) 
+    // allItems.appendChild(closebtn)
+    dialog.show()
+    main.classList.add('p-hide') 
+     
+  
+    // if(closebtn){
+    //     closebtn.addEventListener('click', () =>{
+    //         dialog.close()
+    //         console.log('hello')
+    //     })
+        
+    //  }
+ 
+    })

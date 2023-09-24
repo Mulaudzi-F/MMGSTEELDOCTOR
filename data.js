@@ -2,308 +2,299 @@
 export const boilers =[
 
     {
-        image: "boiler--1",
+        image: "/Boilers/boiler--1",
         id: "01",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "boiler--2",
+        image: "/Boilers/boiler--2",
         id: "02",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "boiler3",
+        image: "/Boilers/boiler3",
         id: "03",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--4",
+        image: "/Boilers/Boiler--4",
         id: "04",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--5",
+        image: "/Boilers/Boiler--5",
         id: "05",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--6",
+        image: "/Boilers/Boiler--6",
         id: "06",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--7",
+        image: "/Boilers/Boiler--7",
         id: "07",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--8",
+        image: "/Boilers/Boiler--8",
         id: "08",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--9",
+        image: "/Boilers/Boiler--9",
         id: "09",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--10",
+        image: "/Boilers/Boiler--10",
         id: "10",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--11",
+        image: "/Boilers/Boiler--11",
         id: "11",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--12",
+        image: "/Boilers/Boiler--12",
         id: "12",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--13",
+        image: "/Boilers/Boiler--13",
         id: "13",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--14",
+        image: "/Boilers/Boiler--14",
         id: "14",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--15",
+        image: "/Boilers/Boiler--15",
         id: "15",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--16",
+        image: "/Boilers/Boiler--16",
         id: "16",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--17",
+        image: "/Boilers/Boiler--17",
         id: "17",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--18",
+        image: "/Boilers/Boiler--18",
         id: "18",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--19",
+        image: "/Boilers/Boiler--19",
         id: "19",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--20",
+        image: "/Boilers/Boiler--20",
         id: "20",
         description: "MMG Steel doctor at boiler installation service"
     },
     {
-        image: "Boiler--21",
+        image: "/Boilers/Boiler--21",
         id: "21",
         description: "MMG Steel doctor at boiler installation service"
     },
 ] 
 
-const pipes =[
+export const pipes =[
 
     {
-        image: "",
+        image: "./pipe work/pipe--1",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe2",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe3",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe4",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe5",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe6",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe7",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe8",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe9",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe10",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe11",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe12",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe13",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe14",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe15",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe16",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe17",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe18",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./pipe work/pipe19",
         id: "",
-        description: "z"
+        description: ""
+    },
+    {
+        image: "./pipe work/pipe20",
+        id: "",
+        description: ""
     }
+    
     
 ] 
 
-const gysers =[
+export  const gysers =[
 
     {
-        image: "",
+        image: "./Gysers/Gyser1",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser2",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser3",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser4",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser5",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser6",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser7",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser8",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser9",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser10",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser11",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser12",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser13",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser14",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser15",
         id: "",
-        description: "z"
+        description: ""
     },
     {
-        image: "",
+        image: "./Gysers/Gyser16",
         id: "",
-        description: "z"
-    },
-    {
-        image: "",
-        id: "",
-        description: "z"
-    },
-    {
-        image: "",
-        id: "",
-        description: "z"
-    },
-    {
-        image: "",
-        id: "",
-        description: "z"
+        description: ""
     }
-    
+ 
 ]

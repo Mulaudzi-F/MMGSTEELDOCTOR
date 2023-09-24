@@ -320,6 +320,8 @@ button{
 }
 } 
 
+
+/*-------------Styling the dialog ------------*/
 .backdrop {
     display: none;
     
@@ -333,11 +335,14 @@ button{
   .overlay[open] ~ .backdrop {
     display: block;
   } 
-  dialog{
+ dialog{
+    background-color: rgb(9, 12, 33, 0.3);
+ }
+  dialog .all-items{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-color: rgb(9, 12, 33, 0.3);
+    
   } 
   dialog img{
     width: 100%;
