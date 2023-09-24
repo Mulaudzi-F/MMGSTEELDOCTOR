@@ -355,11 +355,11 @@ button{
     height: 69%;
   } 
   .close--preview {
-    height: 10%;
-    width: 90%;
-    position: relative;
-    top: 66%;
-    left: 20vw;
+    height: 3%;
+    width: 40%;
+    position: absolute;
+    bottom: 15%;
+    left: 29vw;
     font-size: x-large;
     color: aliceblue;
   }  

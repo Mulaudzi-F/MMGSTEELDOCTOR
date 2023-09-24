@@ -31,11 +31,7 @@ export const boilers =[
         id: "06",
         description: "MMG Steel doctor at boiler installation service"
     },
-    {
-        image: "/Boilers/Boiler--7",
-        id: "07",
-        description: "MMG Steel doctor at boiler installation service"
-    },
+   
     {
         image: "/Boilers/Boiler--8",
         id: "08",

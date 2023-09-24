@@ -90,7 +90,7 @@ gyserMore.addEventListener('click', () =>{
     dialog.show()
     main.classList.add('p-hide') 
      
-  
+    allItems.style.gridTemplateRows = "1fr 1fr 1fr 1fr 1fr";
     // if(closebtn){
     //     closebtn.addEventListener('click', () =>{
     //         dialog.close()
