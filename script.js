@@ -2,10 +2,14 @@ import { boilers, pipes, gysers } from "./data.js";
 
 const aboutBtn = document.querySelector('button') ;
 const hideParagraph = document.querySelector('.p-hide');
-const dialog = document.querySelector('dialog')
+const dialog = document.querySelector('dialog') 
+
+const activeImg = document.querySelector('[data-list-active]')
+
 const allItems = document.querySelector('.all-items')
 
-const serviceSection = document.querySelector('.boiler--container')
+
+const serviceSection = document.querySelector('.service--container')
 const form = document.querySelector('form');
 const main = document.querySelector('main') 
 
@@ -33,33 +37,50 @@ function createPreview({image, description}) {
      <img src="${image}.jpeg"/>
      <p>${description}</p>    
     `
-
+   
     return element
 } 
 
+
+function clearAllItems() {
+    // Loop through all child elements and remove them
+    while (allItems.firstChild) {
+      allItems.removeChild(allItems.firstChild);
+    }
+  }
+  
+
+
+
+
 //------fragment for boilers service---//
 boilerMore.addEventListener('click', () =>{
+    
 const boilerFragment = document.createDocumentFragment();
 
 
 for (const {image, description} of boilers) {
     const preview  = createPreview({image, description}) 
 
-    boilerFragment.appendChild(preview)
+    boilerFragment.appendChild(preview) 
+    
 } 
 
 allItems.appendChild(boilerFragment) 
 
-dialog.show()
+dialog.show() 
+
+
 main.classList.add('p-hide') 
 
 
 }) 
 
 //------fragment for Pipes service---//
-pipeMore.addEventListener('click', () =>{
+pipeMore.addEventListener('click', () =>{ 
+    
     const pipeFragment = document.createDocumentFragment();
-   
+  
     
     for (const {image, description} of pipes) {
         const preview  = createPreview({image, description}) 
@@ -76,9 +97,10 @@ pipeMore.addEventListener('click', () =>{
     }) 
 
     //------fragment for Gysers service---//
-gyserMore.addEventListener('click', () =>{
-    const gyserFragment = document.createDocumentFragment();
+gyserMore.addEventListener('click', () =>{ 
    
+    const gyserFragment = document.createDocumentFragment();
+    
     for (const {image, description} of gysers) {
         const preview  = createPreview({image, description}) 
     
@@ -91,12 +113,21 @@ gyserMore.addEventListener('click', () =>{
     main.classList.add('p-hide') 
      
     allItems.style.gridTemplateRows = "1fr 1fr 1fr 1fr 1fr";
-    // if(closebtn){
-    //     closebtn.addEventListener('click', () =>{
-    //         dialog.close()
-    //         console.log('hello')
-    //     })
-        
-    //  }
+   
  
     })
+ 
+
+    closePreview.addEventListener('click', () =>{
+        clearAllItems();
+        console.log('hello ')
+        dialog.close()
+        main.classList.remove('p-hide')
+    }) 
+
+    // serviceSection.addEventListener('click', ()=>{ 
+    //     console.log(serviceSection.closest('img'))
+    //     activeImg.show()
+    // })
+
+    

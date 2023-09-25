@@ -11,27 +11,32 @@
 </head>
 <body>
     <header id="home">
-        <nav>
+        <nav> 
+          
             <ul>
                 <li>MMG-Steel-Doctor</li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#service">Services</a></li>
                 <li><a href="#About">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <li><span class="fa fa-phone " aria-hidden="true"></span><span>071 631 6502</span></li>
             </ul>
         </nav>
+        <div class="nav--icon">
+            <a class="fa fa-bars fa-3x" aria-hidden="true"></a>
+        </div>
         <div>
             <h1> <span> Welcome</span> <br>
             <span>to</span> <br>
              <span>
-                 MMG-STEEL-DOCTOR, Your Pipeline and Heating Experts!
+                 MMG-STEEL-DOCTOR, Your Pipeline and Boilers Experts!
             </span>
             </h1>
         </div>
         <div>
             <h4>
                 Looking for reliable and expert solutions for your heating needs?<br>
-                 You've come to the right place! At MMG-Steel-Doctors, we specialize in geyser repair, boiler repair, and pipeline installation services</h4>
+                 You've come to the right place! At MMG-Steel-Doctor, we specialize in geyser repair, boiler repair, and pipeline installation services</h4>
         </div>
     </header>
     <main>
@@ -187,15 +192,7 @@
         <section id="contact">
             <h2>Contact Us</h2>
             <div class="Contact">
-                <div class="conctact--details">
-                    <img src="./Icons/9044465_dot_mark_icon.svg" /><span>Contact Info</span> 
-                    <div class="line"></div>
-                    <img src="./352510_local_phone_icon.png" /><span>071 631 6502</span>
-                    <div class="line"></div>
-                    <img src="./7115264_new_logo_gmail_icon.png" class="last" /><span></span>
-                    <div class="line"></div>
-                    <img src="./Icons/9044465_dot_mark_icon.svg" />
-                </div>
+              
                 <div class="form--container">
                     <h3>Reach us by filling form below</h3>
                     <form>
@@ -229,15 +226,23 @@
                         <textarea>Please Leave Us a Message </textarea><br>
                         <button type="submit">Submit</button>
                        
-                    </form>
+                    </form> 
+                    <a class="fa fa-phone fa-2x" aria-hidden="true"><span>071 631 6502</span></a> 
+                    <a class="fa fa-envelope fa-2x" aria-hidden="true"></a>
                 </div>
             </div>
         </section>
     </main>
-    <dialog class="overlay">
+    <dialog class="overlay ">
         <div class="all-items"></div>
         <button class="close--preview">Close preview</button>                    
-    </dialog>
+    </dialog> 
+   <dialog class="overlay" data-list-active>
+        <div class="image__preview">
+            <img  class="overlay__image" src="">
+        </div> 
+        <button>Close</button>
+   </dialog>
     <div class="backdrop"></div>
 </body>
 </html>

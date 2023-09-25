@@ -24,7 +24,7 @@ header li{
     margin-left: 12px;
 }
 header ul{
-    margin-left: 46vw; 
+    margin-left: 26vw; 
     
 } 
 nav{
@@ -71,12 +71,15 @@ h3{
    margin: 2vh 45vw;
 }
 .Boilers, .Pipeline, .Gysers{
+    display: flex;
+    flex-direction: column;
     margin: 10px ;
     border: 1px solid #f1f1f1;
     border-radius: 10px;
     background-color: #5c6b73; 
     box-shadow: 0 4px 8px 0 rgba(141, 134, 134, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    text-align: center; 
+    
 } 
 
 
@@ -122,11 +125,7 @@ fieldset input{
     margin-top: 6%;
     padding: 1%;
 } 
-.conctact--details{
-    margin-top: 32vh;
-    width: 35vw;
-    height: 100%;
-}
+
 .form--container{
     width: 100%;
     height: 156vh;
@@ -169,20 +168,7 @@ label{
     margin-top: 16vh;
 } 
 
-.conctact--details img{
-    width: 10%;
-    height: 10%;
-    margin: 0vh 5px 0 0 ;
-    position: relative;
-   
-    left: 15px;
-} 
-.line{
-    height: 14vh;
-    width: 4px;
-    background-color: black;
-    margin-left: 33px;
-}
+
 .about--container div:nth-child(1){
 width: 100%;
 height: 50%;
@@ -207,8 +193,30 @@ img:hover{
 button{
     background-color: #00b4d8;
     border-color:#00b4d8 ;
-} 
-@media screen and (max-width: 767px) {
+}  
+
+.nav--icon{
+    display:none;
+}
+
+
+@media screen and (max-width: 767px) {  
+    h1, h4{
+        position:relative;
+        top: 41vh
+    }
+    header div{
+        margin: 0vh 0 0 3vw;
+    }
+    header ul{
+        margin: 0;
+       
+    } 
+    header li{
+        display: block;
+        margin: 0;
+        z-index: 12;
+    }
     header{
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./backImages/WhatsApp\ Image\ 2023-09-21\ at\ 11.40.24\ \(1\).jpeg') no-repeat ;
         background-size: cover;
@@ -227,10 +235,18 @@ button{
 
     } 
     .service--container img{
-        height: 10%;
-        object-fit: contain;
+        height: 80%;
+        object-fit: cover;
         
     } 
+    .boiler--container, .Pipe--container, .Gysers--container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 15.625vh;
+        
+        justify-content: space-between;
+    }
     .conctact--details span{ 
         position: relative;
         top:1px
@@ -242,11 +258,7 @@ button{
     .Contact{
         flex-direction: column-reverse;
     } 
-    .conctact--details{
-        margin: 0;
-        position: relative;
-        bottom:1vh;
-    } 
+   
     input, input[type="email"]{
         width: 100%;
         margin-top:12px ;
@@ -285,12 +297,17 @@ button{
         top: 4vh;
     } 
     nav{
-        float:right;
-        display: none;
+        float:left;
+        display: none; 
+        background-color: transparent;
     } 
-    .conctact--details img{
-        margin-left: 13px;
-    }
+   
+    .nav--icon{
+        display:block;
+    } 
+
+ 
+        
 } 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     li{
@@ -337,6 +354,7 @@ button{
   } 
  dialog{
     background-color: rgb(9, 12, 33, 0.3);
+    z-index: 10; 
  }
   dialog .all-items{
     display: grid;
@@ -355,13 +373,17 @@ button{
     height: 69%;
   } 
   .close--preview {
-    height: 3%;
+    height: 5%;
     width: 40%;
     position: absolute;
-    bottom: 15%;
+    bottom: 3vh;
     left: 29vw;
     font-size: x-large;
     color: aliceblue;
+    overflow: hidden;
   }  
 
-  
+  .form--container a{
+    padding: 10%;
+ 
+  }

@@ -4,103 +4,103 @@ export const boilers =[
     {
         image: "/Boilers/boiler--1",
         id: "01",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/boiler--2",
         id: "02",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/boiler3",
         id: "03",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--4",
         id: "04",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--5",
         id: "05",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--6",
         id: "06",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
    
     {
         image: "/Boilers/Boiler--8",
         id: "08",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--9",
         id: "09",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--10",
         id: "10",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--11",
         id: "11",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--12",
         id: "12",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--13",
         id: "13",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--14",
         id: "14",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--15",
         id: "15",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--16",
         id: "16",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--17",
         id: "17",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--18",
         id: "18",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--19",
         id: "19",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--20",
         id: "20",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
     {
         image: "/Boilers/Boiler--21",
         id: "21",
-        description: "MMG Steel doctor at boiler installation service"
+        description: ""
     },
 ] 
 
