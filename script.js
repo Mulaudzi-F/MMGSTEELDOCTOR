@@ -28,10 +28,10 @@ aboutBtn.addEventListener('click', function(){
     aboutBtn.classList.add('p-hide')
 }) 
 
-form.addEventListener('submit', (e) =>{
-    e.preventDefault() 
-    form.reset()
-}) 
+// form.addEventListener('submit', (e) =>{
+//     e.preventDefault() 
+//     form.reset()
+// }) 
 
 function createPreview({image, description}) {
     let element = document.createElement('div')

@@ -16,7 +16,7 @@
         <label for="check" class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
-        <label class="logo">DesignX</label>
+        <label class="logo"><img src="./logo/WhatsApp Image 2023-09-25 at 20.29.31.jpeg" alt=""></label>
         <ul>
           <li><a class="active" href="#home">Home</a></li>
           <li><a href="#About">About</a></li>
@@ -197,10 +197,14 @@
               
                 <div class="form--container">
                     <h3>Reach us by filling form below</h3>
-                    <form>
+                    <form action="https://formsubmit.co/mmgsteeldoctor@gmail.com" method="POST">
                         <input type="text" name="names" required placeholder="Enter Names">
                         <input type="number" name="number" required placeholder="Cell Phone" /><br>
-                        <input type="email" name="email" required placeholder="Email Address" />
+                        <input type="email" name="email" required placeholder="Email Address" /> 
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="MMG-STEEL-DOCTOR service on request"> 
+                        <input type="hidden" name="_autoresponse" value="Thank you for reaching us, We'll get back to yu shortly"> 
+                        <input type="hidden" name="_captcha" value="false">
                         <fieldset>
                             <legend>Address(Optional) </legend>
                             <div>
@@ -225,12 +229,15 @@
                             </div>
                         </fieldset> 
 
-                        <textarea>Please Leave Us a Message </textarea><br>
+                        <textarea name="Message">Please Leave Us a Message </textarea><br>
                         <button type="submit">Submit</button>
                        
                     </form> 
                     <a class="fa fa-phone fa-2x" aria-hidden="true"><span>071 631 6502</span></a> 
                     <a class="fa fa-envelope fa-2x" aria-hidden="true"><span>mmgsteeldoctor@gmail.com</span></a>
+                </div> 
+                <div class="contact--info">
+                    
                 </div>
             </div>
         </section>

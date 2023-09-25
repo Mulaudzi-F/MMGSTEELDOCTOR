@@ -88,9 +88,11 @@ h3{
 
 .Contact{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 10vh;
     box-shadow: 0 4px 8px 0 rgba(255, 242, 242, 0.801), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+    flex-wrap: wrap;
    
 }
 form{
@@ -184,10 +186,8 @@ height: 50%;
     display: none;
 }
 
-.conctact--details span{
-    position: relative;
-    bottom: 10px;
-    left: 10px;
+.conctact--info {
+   height: 50%;
 }
 img:hover{
     border: 1px solid #777
@@ -198,9 +198,7 @@ button{
     font-size: 3vh;
 }  
 
-.nav--icon{
-    display:none;
-}
+
 
 
 @media screen and (max-width: 767px) {  
@@ -383,11 +381,11 @@ button{
     left: 29vw;
     font-size: x-large;
     color: aliceblue;
-    overflow: hidden;
+    
   }  
 
   .form--container a{
-    margin-top: 8%;
+    margin: 8%  0 0 2vw;
  
   } 
 
@@ -397,6 +395,8 @@ button{
     background: #0082e6;
     height: 80px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
   label.logo{
     color: white;
@@ -475,4 +475,29 @@ button{
     #check:checked ~ ul{
       left: 0;
     }
+  } 
+
+  @media  (min-width:859px) and (max-width: 1066px){
+    ul{
+        position: relative;
+        bottom: 4vh;
+    }
+    
   }
+
+  label img{
+    mix-blend-mode: multiply;
+    
+  } 
+
+  h1, h4{
+    position:relative;
+    top: 31vh
+}
+@media (max-width:428px) {
+    label img{
+        position: relative;
+        bottom: 8vh;
+    }
+    
+}
