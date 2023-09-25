@@ -20,6 +20,13 @@ const gyserMore = document.querySelector('.gyser-more')
 
 const closePreview = document.querySelector('.close--preview');
 
+const menuIcon = document.getElementById("menuIcon");
+const navLinks = document.getElementById("navLinks");
+
+menuIcon.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
 aboutBtn.addEventListener('click', function(){
     hideParagraph.classList.remove('p-hide')
     aboutBtn.classList.add('p-hide')
