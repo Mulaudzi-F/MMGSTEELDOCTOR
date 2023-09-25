@@ -130,4 +130,4 @@ gyserMore.addEventListener('click', () =>{
     //     activeImg.show()
     // })
 
-    
+    //------------------------------------Implementing smoth scroll-----//
