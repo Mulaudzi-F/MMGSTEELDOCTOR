@@ -72,6 +72,7 @@ dialog.show()
 
 
 main.classList.add('p-hide') 
+document.querySelector('.logo').classList.add('p-hide')
 
 
 }) 
@@ -122,7 +123,8 @@ gyserMore.addEventListener('click', () =>{
         clearAllItems();
         console.log('hello ')
         dialog.close()
-        main.classList.remove('p-hide')
+        main.classList.remove('p-hide') 
+        document.querySelector('.logo').classList.remove('p-hide')
     }) 
 
     // serviceSection.addEventListener('click', ()=>{ 
@@ -146,4 +148,32 @@ gyserMore.addEventListener('click', () =>{
                 })
             })
         }
+    ) 
+
+    //-------------------- reveal sections------------------//
+
+    //Reveal section
+
+    const allSection = document.querySelectorAll('section')
+
+    const revealSection = function(entries, observer){
+             const [entry] = entries
+             console.log(entry) 
+            if(!entry.isIntersecting) return
+             entry.target.classList.remove('section--hidden')
+            observer.unobserve(entry.target)
+   
+            } 
+
+
+    const sectionObserver = new IntersectionObserver(
+        revealSection, {
+            root:null,
+            threshold: 0.15,
+        }
     )
+    
+    allSection.forEach(function(section){
+        sectionObserver.observe(section) 
+        section.classList.add('section--hidden')
+    })
