@@ -2,6 +2,7 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
+    padding: 0;
 
 }
 header{
@@ -15,21 +16,7 @@ header{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./backImages/WhatsApp\ Image\ 2023-09-21\ at\ 11.40.24\ \(1\).jpeg') no-repeat ;
    
 } 
-/*header div{
-    margin: 9vh 0 0 3vw;
-}
-header li{
-    display: inline-block;
-    padding: 12px;
-    margin-left: 12px;
-}
-header ul{
-    margin-left: 26vw; 
-    
-} 
-nav{
-    background-color: #748cab
-}*/
+
 body{ 
     margin: 0;
     padding: 0;
@@ -210,20 +197,14 @@ button{
     header div{
         margin: 0vh 0 0 3vw;
     }
-   /* header ul{
-        margin: 0;
-       
-    } 
-    header li{
-        display: block;
-        margin: 0;
-        z-index: 12;
-    } */
+  
     header{
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./backImages/WhatsApp\ Image\ 2023-09-21\ at\ 11.40.24\ \(1\).jpeg') no-repeat ;
         background-size: cover;
         max-width: 100%;
-    } 
+    }  
+
+   
     .about--container{
         display:flex;
         flex-direction: column;
@@ -299,34 +280,12 @@ button{
         position: relative;
         top: 4vh;
     } 
-    /*nav{
-        float:left;
-        display: none; 
-        background-color: transparent;
-    } 
-   
-    .nav--icon{
-        display:block;
-    } 
-*/
+
  
         
 } 
 @media screen and (min-width: 768px) and (max-width: 1023px){
-   /* li{
-        display: block;
-        padding: 0; 
-        margin-right: 0;
-    } 
-    header ul{
-     margin: 0;
-     padding: 0;
-     background-color: #e5e5e5;
-        
-    } 
- header div:nth-child(1){
-    margin-top: 21vh;
- } */
+
 
  header{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./backImages/WhatsApp\ Image\ 2023-09-21\ at\ 11.40.24\ \(1\).jpeg') no-repeat ;
@@ -442,8 +401,8 @@ button{
   }
   @media (max-width: 952px){
     label.logo{
-      font-size: 30px;
-      padding-left: 50px;
+    
+      padding-left: 10%;
     }
     nav ul li a{
       font-size: 16px;
@@ -483,7 +442,7 @@ button{
   @media  (min-width:859px) and (max-width: 1066px){
     nav ul{
         position: relative;
-        bottom: 4vh;
+        bottom: 8vh;
     }
     
   }
