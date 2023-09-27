@@ -269,8 +269,8 @@ button{
         margin: 18% 0  0 22%;
     } 
     form button, .About_section button{
-        width: 41%;
-        margin: 18% 0  0 22%;
+        width: 51%;
+       ;
     }
     textarea{
         height: 200px;
@@ -364,7 +364,7 @@ button{
     color: white;
     font-size: 35px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 50px;
     font-weight: bold;
   }
   nav ul{
